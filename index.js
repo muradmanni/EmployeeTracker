@@ -4,7 +4,8 @@ const Role = require("./lib/Role");
 const Employee = require("./lib/Employee");
 const inquirer = require("inquirer");
 const { exit } = require("process");
-const options =["View all Employees", "Add Employee", "Update Employee Role", "View All Roles", "Add Role", "View All Departments", "Add Department", "Update Employees Manager", "Exit"];
+const options =["View all Employees", "Add Employee", "Update Employee Role", "View All Roles", "Add Role", "View All Departments", "Add Department", 
+    "Update Employees Manager", "Exit"];
 
 const table = require("table");
 let config = {
@@ -68,7 +69,7 @@ const  init = async () =>
                             console.log(err);
                         }
 
-                        console.log(`\nRole Updated for  ${answers} to the Database\n` );
+                        console.log(`\nRole Updated for the employee\n` );
                         }
                     )
 
@@ -129,10 +130,9 @@ const  init = async () =>
                             console.log(err);
                         }
 
-                        console.log(`\nManager Updated for  ${answers} to the Database\n` );
+                        console.log(`\nManager Updated for the employee.\n` );
                         }
                     )
-                
                     break;
                 case "Exit":
                     checkForExit=false;
