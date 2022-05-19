@@ -50,7 +50,7 @@ https://github.com/muradmanni/EmployeeTracker
 ## WalkthroughVideo
 
 Please click on the image below to open the video link.
-[![walkthrough video](/assets/images/screenshot.jpg)](https://youtu.be/9EjhEZQHg6U)
+[![walkthrough video](/assets/images/screenshot.jpg)](https://youtu.be/ERhRq_l6jtA)
 
 ## License
 This project is covered under MIT License. 
